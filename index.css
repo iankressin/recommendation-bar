@@ -1,0 +1,111 @@
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.ref{
+  display: inline-flex;
+}
+
+.recommendations{
+  display: inline-flex;
+}
+
+.content{
+  display: inline-flex;
+}
+
+.product-wrapper {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 220px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.product-wrapper:hover {
+  background-image: linear-gradient(#c9d8ff, #fff);
+}
+
+.product-wrapper:hover .img-wrapper {
+  border: 3px solid #b0c5fc;
+}
+
+.product-wrapper p {
+  margin-left: 5px;
+}
+
+.img-wrapper {
+  border: 3px solid white;
+  background-color: white;
+}
+
+.img-wrapper:hover {
+  border: 3px solid #b0c5fc;
+}
+
+.product-wrapper img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.old-price {
+  font-size: 0.8em;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+
+.new-price p {
+  color: red;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.price {
+  display: inline-flex;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.evidence {
+  font-size: 1.5em;
+  font-weight: 1000;
+}
+
+.sub {
+  display: inline-flex;
+}
+
+.vertical-line {
+  border-left: 1px solid #e4e4e4;
+  height: auto;
+  top: 0;
+}
+
+.slider {
+  display: inline-flex;
+  padding: 0 10px 0 10px;
+}
+
+.arrow-left {
+  font-size: 2em;
+  margin-top: 60px;
+  margin-right: 10px;
+  color: #aaaaaa;
+}
+
+.arrow {
+  font-size: 2em;
+  margin-top: 60px;
+  cursor: pointer;
+  color: #636363;
+}
+
+.left {
+  margin-right: 10px;
+  
+}
+
+.right {
+  margin-left: 10px;
+}

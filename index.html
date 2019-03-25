@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <script src="index.js"></script>
+    <script src="http://roberval.chaordicsystems.com/challenge/challenge.json?callback=X"></script>
+    <title>Static Template</title>
+  </head>
+  <body>
+    
+    <div class="recommendations">
+        <div class="ref"></div>
+
+        <div class="vertical-line"></div>
+          
+        <div class="slider">
+          <i class="fas fa-chevron-left arrow left" onclick="previous()"></i>
+          <div class="content">
+          </div>
+          <i class="fas fa-chevron-right arrow right" onclick="next()"></i>
+        </div>    
+    </div>
+
+    <template>
+      <div class="product-wrapper">
+        <a class="product-link" target="_blank">
+        <div class="img-wrapper">
+          <img
+            class="product-img"
+          />
+        </div>
+        <p class="product-name">
+        </p>
+        <div class="old-price">
+          <p class="price">De:</p>
+          <p class="price old"></p>
+        </div>
+        <div class="new-price">
+          <p class="price">Por:</p>
+          <p class="price evidence"><strong></strong></p>
+          <p class="conditions"></p>
+        </div>
+      </a>
+      </div>
+    </template>
+
+      
+  </body>
+</html>
